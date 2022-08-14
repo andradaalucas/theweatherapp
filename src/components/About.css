@@ -1,0 +1,33 @@
+.textWelcome{
+    color: black;
+    font-weight: bolder;
+    margin: 0px;
+}
+.textoAbout{
+    color: black;
+    font-weight: bold;
+}
+.icon-man-about{
+    width: 300px;
+    animation: move-vector 4s linear infinite;
+}
+
+@keyframes move-vector {
+    0%{
+        transform: translateY(15px);
+    }50%{
+        transform: translateY(0px);
+    }100%{
+        transform: translateY(15px);
+    }
+}
+@media screen and (max-width: 470px) {
+    .textWelcome{
+        color: black;
+        font-weight: bolder;
+    }
+    .textoAbout{
+        color: black;
+        font-weight: bold;
+    }
+}

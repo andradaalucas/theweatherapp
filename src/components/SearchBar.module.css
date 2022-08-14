@@ -1,0 +1,36 @@
+.submitbtn{
+    color: white;
+  
+   
+    background:transparent;
+    border-top-left-radius: 15% ;
+    border-bottom-right-radius: 15% ;
+    margin-left: 1rem;
+    padding-bottom: 3px;
+    border:2px solid white;
+    transition: transform .2s; 
+    padding-top: 0;
+    padding-bottom: 0;
+    cursor: pointer;
+
+}
+.submitbtn:hover{
+    background:white;
+    color:rgba(0,112,154,1);
+    transform: scale(1.1);
+}
+.input{
+    background-color: transparent;
+    border: none;
+    color: white;
+    margin-left: 0px;
+    cursor: auto;
+}
+::placeholder{
+    color: gray;
+    font-family: 'Tajawal', sans-serif;
+    font-weight: bold;
+}
+.containerSearch{
+    display: flex;
+}

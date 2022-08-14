@@ -1,0 +1,64 @@
+.card {
+  margin: 20px;
+  width: 18rem;
+  background-color: rgba(138, 138, 138, 0.15);  
+  backdrop-filter: blur(2px);
+  border: 2px solid black;
+  -webkit-box-shadow: -4px 11px 38px -3px rgba(0,0,0,0.75);
+  -moz-box-shadow: -4px 11px 38px -3px rgba(0,0,0,0.75);
+  box-shadow: -4px 11px 38px -3px rgba(0,0,0,0.75)
+
+  
+}
+.closebtn{
+  background-color: red;
+  border-radius: 20%;
+  padding-top: 0;
+  padding-bottom: 0;
+  font-weight: bold;
+  transition: transform .2s; 
+}
+.closebtn:hover{
+  background-color: black;
+  color: white;
+  transition: 0.4s;
+  transform: scale(1.1);
+}
+.card-title {
+  margin-bottom: 15px;
+  color: black;
+  font-weight: bold;
+}
+
+#closeIcon {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 8px;
+  margin-top: 8px;
+  opacity: 1;
+}
+
+.body-card {
+  
+  margin-top: 0px !important;
+  padding-top: 0px !important;
+}
+.row{
+    color: black;
+    font-weight: bolder;
+}
+@media screen and (max-width:470px) {
+  .card{
+    background-color: rgba(138, 138, 138, 0.15);  
+    backdrop-filter: blur(2px);
+  }
+  .row{
+    color: black;
+    font-weight: bolder;
+  }
+  .closebtn{
+    border-radius: 5%;
+    border: 1px solid black;
+
+  }
+}

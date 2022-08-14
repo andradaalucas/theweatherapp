@@ -1,0 +1,37 @@
+.App {
+  text-align: center;  
+  
+}
+
+.row {
+  /* display: flex;
+  justify-content: center; */
+  background-color: transparent;
+}
+.body{
+  background-repeat: no-repeat;
+  background: url(../img/backgroundbody.jpg) ;
+  background-size: cover;
+  
+}
+#textfijo{
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  color: #1a1a1a;
+  opacity: 0.8;
+  top: 90%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+@media screen and (max-width: 470px) {
+  .body{
+   background-size: cover;
+   
+  }
+  #textfijo{
+    display: none;
+  }
+}

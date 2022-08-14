@@ -1,0 +1,36 @@
+.navbar{
+  background-color: #1a1a1a;
+  opacity: 0.9;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+
+}
+.Icon{
+  color:white;
+  font-size: 25px;
+}
+.about{
+  color: 	#1E90FF;
+}
+.container{
+  margin: 0.5rem;
+}
+.searchBar{
+  display: flex;
+}
+*{
+  font-family: 'Tajawal', sans-serif;
+}
+@media screen and (max-width: 470px) {
+ .navbar{
+   height: auto;
+ }  
+ .Icon{
+   font-size: 16px;
+ } 
+ .about{
+   display: none;
+ }
+}
